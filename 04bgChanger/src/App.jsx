@@ -1,11 +1,8 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
   const [color, setColor] = useState("olive");
-  console.log("hello", props);
 
   // 4:15
 
@@ -53,6 +50,7 @@ function App() {
           </button>
           <button
             onClick={() => setColor("blueviolet")}
+            className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
             style={{ backgroundColor: "blueviolet" }}
           >
             blueviolet
