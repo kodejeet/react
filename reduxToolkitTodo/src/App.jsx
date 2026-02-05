@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <h1 className = "text-3xl">hey this is new redux toolkit</h1>
+      <h1 className="text-3xl">hey this is new redux toolkit</h1>
     </>
   );
 }
