@@ -4,7 +4,7 @@ import { addTodo } from "../features/todo/todoSlice.js";
 
 export const AddTodo = () => {
   const [input, setInput] = useState("");
-  const dispatch = useDispatch("");
+  const dispatch = useDispatch();
   const addTodoHandler = (e) => {
     e.preventDefault();
     dispatch(addTodo(input));
